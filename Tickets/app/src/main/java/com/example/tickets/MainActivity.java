@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
                 new DatePickerDialog.OnDateSetListener() {
                     @Override
                     public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                        // В этом методе обработайте выбранную дату и установите ее в поле ввода
                         String selectedDate = dayOfMonth + "/" + (monthOfYear + 1) + "/" + year;
                         editText.setText(selectedDate);
                     }
