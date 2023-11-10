@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Tickets</string>
+    <string-array name="cities_array">
+        <item>Сочи</item>
+        <item>Казань</item>
+        <item>Иркутск</item>
+        <item>Братск</item>
+        <item>Краснодар</item>
+        <item>Липецк</item>
+    </string-array>
 </resources>
