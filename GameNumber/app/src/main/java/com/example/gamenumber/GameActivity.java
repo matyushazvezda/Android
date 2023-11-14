@@ -23,7 +23,7 @@ public class GameActivity extends AppCompatActivity {
 
         Intent i = getIntent();
         begin = i.getIntExtra("begin", 0);
-        end = i.getIntExtra("end",100);
+        end = i.getIntExtra("end",100)+1;
         k = (begin+end)/2;
 
         yes = findViewById(R.id.yes);
