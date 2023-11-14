@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GameNumber</string>
+    <string name="out">Игра угадай</string>
 </resources>
