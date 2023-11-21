@@ -1,18 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:hint="Поле для ввода"
+        android:inputType="text" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio_phoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Телефон" />
+
+        <RadioButton
+            android:id="@+id/radio_webpage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Веб-сайт" />
+
+        <RadioButton
+            android:id="@+id/radio_geopoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Геоточка" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:text="Выполнить"
+        android:onClick="performAction" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/output"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textSize="18sp"
+        android:textColor="@android:color/black" />
+</LinearLayout>
