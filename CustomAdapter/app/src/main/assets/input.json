@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Sophia Garcia",
+    "phoneNumber": "+1 (123) 456-7890",
+    "sex": "WOMAN"
+  },
+  {
+    "name": "Liam Martinez",
+    "phoneNumber": "+1 (987) 654-3210",
+    "sex": "MAN"
+  },
+  {
+    "name": "Isabella Rodriguez",
+    "phoneNumber": "+1 (555) 123-4567",
+    "sex": "UNKNOWN"
+  },
+  {
+    "name": "Noah Hernandez",
+    "phoneNumber": "+1 (111) 222-3333",
+    "sex": "MAN"
+  },
+  {
+    "name": "Emma Lopez",
+    "phoneNumber": "+1 (999) 888-7777",
+    "sex": "UNKNOWN"
+  },
+  {
+    "name": "Mia Gonzalez",
+    "phoneNumber": "+1 (333) 444-5555",
+    "sex": "WOMAN"
+  },
+  {
+    "name": "Alexander Perez",
+    "phoneNumber": "+1 (777) 666-5555",
+    "sex": "MAN"
+  },
+  {
+    "name": "James Ramirez",
+    "phoneNumber": "+1 (444) 333-2222",
+    "sex": "UNKNOWN"
+  },
+  {
+    "name": "Charlotte Torres",
+    "phoneNumber": "+1 (222) 555-8888",
+    "sex": "WOMAN"
+  },
+  {
+    "name": "Benjamin Flores",
+    "phoneNumber": "+1 (888) 777-6666",
+    "sex": "MAN"
+  }
+]

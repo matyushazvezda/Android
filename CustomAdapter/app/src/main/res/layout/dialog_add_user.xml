@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имя" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Телефон" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioMan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мужской" />
+
+        <RadioButton
+            android:id="@+id/radioWoman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Женский" />
+        <RadioButton
+            android:id="@+id/radioUNKNOWN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Без пола" />
+
+
+    </RadioGroup>
+</LinearLayout>
